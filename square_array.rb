@@ -1,4 +1,4 @@
 def square_array(array)
-  array.each{|sqaured| math.sqrt(array) }
+  array.each{|squared| math.sqrt(array) }
     puts "hello #{squared}"
 end
