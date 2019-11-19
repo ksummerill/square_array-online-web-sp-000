@@ -3,7 +3,8 @@
 def square_array(array)
   new_array = []
   array.each do |squared|
-    new_array << array * 2
+    array * 2
+    new_array << yield squared
   end
 end
 
