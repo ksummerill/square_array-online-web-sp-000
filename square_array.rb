@@ -5,6 +5,7 @@ def square_array(array)
   array.each do |squared|
     new_array << array * 2
   end
+  new_array
 end
 
 # def square_array(array)
