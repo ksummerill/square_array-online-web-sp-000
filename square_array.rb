@@ -1,4 +1,3 @@
 def square_array(array)
-  numbers.each{|squared| puts "hello #{squared}" }
-
+  numbers.each{|squared| numbers.sqrt(array) }
 end
