@@ -4,7 +4,7 @@ def square_array(array)
     array * 2
     yield(array)
     new_array << yield(array)
-  end  
+  end
 end
 
 # def square_array(array)
